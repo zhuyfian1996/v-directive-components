@@ -1,0 +1,17 @@
+.zdc__fade-enter-active {
+  animation: zdc__fade 0.2s;
+}
+
+.zdc__fade-leave-active {
+  animation: zdc__fade 0.2s reverse;
+}
+
+@keyframes zdc__fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
